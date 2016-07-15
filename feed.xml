@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>hon-ne</title><subtitle>A blog by Dan Zheng.</subtitle><updated>2016-07-14T21:47:19-04:00</updated><id>http://hon-ne.me/</id><rights>Copyright © 2016, Dan Zheng</rights><link rel="alternate" type="text/html" hreflang="en" href="http://hon-ne.me/" /><link rel="self" type="application/atom+xml" href="http://hon-ne.me/feed.xml" /><author><name>Dan Zheng</name><uri>http://hon-ne.me/</uri><email>zheng321@purdue.edu</email></author><entry><title>Vim Tips</title><id>http://hon-ne.me/vim.html</id><link rel="alternate" type="text/html" href="http://hon-ne.me/vim.html" /><published>2016-07-14T13:02:00-04:00</published><updated>2016-07-14T21:47:05-04:00</updated><author><name>Dan Zheng</name><uri>http://danzheng.me</uri><email>zheng321@purdue.edu</email></author><content type="html" xml:base="http://hon-ne.me/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>hon-ne</title><subtitle>A blog by Dan Zheng.</subtitle><updated>2016-07-14T22:01:39-04:00</updated><id>http://hon-ne.me/</id><rights>Copyright © 2016, Dan Zheng</rights><link rel="alternate" type="text/html" hreflang="en" href="http://hon-ne.me/" /><link rel="self" type="application/atom+xml" href="http://hon-ne.me/feed.xml" /><author><name>Dan Zheng</name><uri>http://hon-ne.me/</uri><email>zheng321@purdue.edu</email></author><entry><title>Vim Tips</title><id>http://hon-ne.me/vim.html</id><link rel="alternate" type="text/html" href="http://hon-ne.me/vim.html" /><published>2016-07-14T13:02:00-04:00</published><updated>2016-07-14T22:01:23-04:00</updated><author><name>Dan Zheng</name><uri>http://danzheng.me</uri><email>zheng321@purdue.edu</email></author><content type="html" xml:base="http://hon-ne.me/">
           
             &lt;p&gt;Vim is my favorite editor. I’ve been using it for a year.&lt;/p&gt;
 
@@ -7,6 +7,8 @@
 &lt;p&gt;&lt;em&gt;This post only scratches the surface of Vim: I don’t talk about motions, marks, macros, or advanced techniques. If you’ve mastered these basics and are interested in learning more, check out &lt;a href=&quot;http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118&quot;&gt;this awesome answer from stackoverflow&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;basics&quot;&gt;Basics&lt;/h1&gt;
+
+&lt;p&gt;Here are some basic Vim commands.&lt;/p&gt;
 
 &lt;h2 id=&quot;savingexiting&quot;&gt;Saving/Exiting&lt;/h2&gt;
 
@@ -94,6 +96,10 @@
     &lt;tr&gt;
       &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;move up one-half screen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;while on parentheses/braces: jumps to matching parenthesis or brace&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -307,7 +313,9 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&quot;tips-cool-stuff&quot;&gt;Tips (cool stuff)&lt;/h1&gt;
+&lt;h1 id=&quot;cool-stuff&quot;&gt;Cool stuff&lt;/h1&gt;
+
+&lt;p&gt;Here are some more advanced tips and tricks.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -318,8 +326,12 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gg=G&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;automatically indent all lines in file&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;repeat previous command&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;q:&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;view vim command history&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;! &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/td&gt;
@@ -338,12 +350,32 @@
       &lt;td&gt;(for Mac) paste system clipboard into file&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;while on parentheses/braces: jumps to matching parenthesis or brace&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gg=G&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;automatically indent all lines in file&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;repeat previous command&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gv&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;reselect last visual selection&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;g;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;move forward in changelist&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;g,&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;move backward in changelist&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&#39;.&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;go to last edited line&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;`.&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;go to last edited position&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:%TOhtml&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;save current file as an HTML document&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
