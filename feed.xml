@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>hon-ne</title><subtitle>A blog by Dan Zheng.</subtitle><updated>2016-07-14T23:42:37-04:00</updated><id>http://hon-ne.me/</id><rights>Copyright © 2016, Dan Zheng</rights><link rel="alternate" type="text/html" hreflang="en" href="http://hon-ne.me/" /><link rel="self" type="application/atom+xml" href="http://hon-ne.me/feed.xml" /><author><name>Dan Zheng</name><uri>http://hon-ne.me/</uri><email>zheng321@purdue.edu</email></author><entry><title>Vim Motions</title><id>http://hon-ne.me/vim-motions.html</id><link rel="alternate" type="text/html" href="http://hon-ne.me/vim-motions.html" /><published>2016-07-14T23:00:00-04:00</published><updated>2016-07-14T23:41:17-04:00</updated><author><name>Dan Zheng</name><uri>http://danzheng.me</uri><email>zheng321@purdue.edu</email></author><content type="html" xml:base="http://hon-ne.me/"></content><summary></summary></entry><entry><title>Vim Tips</title><id>http://hon-ne.me/vim.html</id><link rel="alternate" type="text/html" href="http://hon-ne.me/vim.html" /><published>2016-07-14T13:02:00-04:00</published><updated>2016-07-14T23:42:24-04:00</updated><author><name>Dan Zheng</name><uri>http://danzheng.me</uri><email>zheng321@purdue.edu</email></author><content type="html" xml:base="http://hon-ne.me/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>hon-ne</title><subtitle>A blog by Dan Zheng.</subtitle><updated>2016-07-15T00:49:09-04:00</updated><id>http://hon-ne.me/</id><rights>Copyright © 2016, Dan Zheng</rights><link rel="alternate" type="text/html" hreflang="en" href="http://hon-ne.me/" /><link rel="self" type="application/atom+xml" href="http://hon-ne.me/feed.xml" /><author><name>Dan Zheng</name><uri>http://hon-ne.me/</uri><email>zheng321@purdue.edu</email></author><entry><title>Vim Motions</title><id>http://hon-ne.me/vim-motions.html</id><link rel="alternate" type="text/html" href="http://hon-ne.me/vim-motions.html" /><published>2016-07-14T23:00:00-04:00</published><updated>2016-07-14T23:41:17-04:00</updated><author><name>Dan Zheng</name><uri>http://danzheng.me</uri><email>zheng321@purdue.edu</email></author><content type="html" xml:base="http://hon-ne.me/"></content><summary></summary></entry><entry><title>Vim Tips</title><id>http://hon-ne.me/vim.html</id><link rel="alternate" type="text/html" href="http://hon-ne.me/vim.html" /><published>2016-07-14T13:02:00-04:00</published><updated>2016-07-15T00:48:56-04:00</updated><author><name>Dan Zheng</name><uri>http://danzheng.me</uri><email>zheng321@purdue.edu</email></author><content type="html" xml:base="http://hon-ne.me/">
           
             &lt;p&gt;Vim is my favorite editor. I’ve been using it for a year.&lt;/p&gt;
 
@@ -99,7 +99,7 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;while on parentheses/braces: jumps to matching parenthesis or brace&lt;/td&gt;
+      &lt;td&gt;while on parentheses/braces: jump to matching parenthesis or brace&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -334,19 +334,19 @@
       &lt;td&gt;view vim command history&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;! &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:! &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;perform external command&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;! ls&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:! ls&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;perform &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; command&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r! &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:r! &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;perform external command and read output into file&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;r! pbpaste&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:r! pbpaste&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt;(for Mac) paste system clipboard into file&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
